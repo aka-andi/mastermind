@@ -60,7 +60,7 @@ public class MastermindGame {
       passcodeLength = selectDifficulty();
       System.out.println("Guess the " + passcodeLength + "-character passcode in as few tries as possible!");
       System.out.println("Valid character 'beads' are represented by the characters:  'q', 'w', 'e', 'r', 't', and 'y'");
-      System.out.println("You lose if you fail to guess the passcode in 20 tries.");
+      System.out.println("You lose if you fail to guess the passcode in 20 tries. Enter 'z' to quit.");
       System.out.println("****************************************");
    }
    

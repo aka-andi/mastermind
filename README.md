@@ -69,4 +69,8 @@ Now the player knows what letters to use and can infer that 'q' is not in the la
     <checker response:>	BBB
 			            You Win! Guesses used: 3
 
+## Running the Game
+
+After downloading all files in this repo, open the directory in your command line. Run the command, `.\play` to begin.
+
 Happy code-cracking!
