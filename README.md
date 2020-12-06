@@ -1,7 +1,7 @@
 
 # A Text-Based Version of the Classic Game, Mastermind
 
-Developed by Andi Motas
+## Developed by Andi Motas
 
 Figure out the passcode in as few tries as possible!
 The player loses if they take more than 20 tries.
@@ -28,7 +28,7 @@ The program will generate a passcode consisting of any assortment of the charact
 During each "Guess", the player can either **input a guess for the passcode or quit** the game early. The following shows valid input:
 
 * "z" = Quit Early
-* Any guess that meets all 3 of the following:
+* Any guess that meets **all 3** of the following:
     1. Consists only of the characters: 'q', 'w', 'e', 'r', 't', or 'y'.
     2. Is the same length as the passcode.
     3. Has NO separators (spaces, commas, etc.)
@@ -47,7 +47,7 @@ Once the player makes a guess that matches the passcode without taking more than
 
 ## Example Gameplay
 
-**Passcode = qwe**
+### Passcode = 'qwe'
 
 ### Guess #1: 
     <player input:>		twq
@@ -67,6 +67,6 @@ Now the player knows what letters to use and can infer that 'q' is not in the la
 ### Guess #3:
     <player input:>		qwe
     <checker response:>	BBB
-			You Win! Guesses used: 3
+			            You Win! Guesses used: 3
 
 Happy code-cracking!
